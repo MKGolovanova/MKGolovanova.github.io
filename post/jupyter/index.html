@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <!-- This site was created with Wowchemy. https://www.wowchemy.com -->
-<!-- Last Published: March 18, 2023 --><html lang="en-us" >
+<!-- Last Published: April 15, 2023 --><html lang="en-us" >
 
 
 <head>
@@ -276,7 +276,7 @@
 
   
 
-<meta name="description" content="Learn how to blog in Academic using Jupyter notebooks" />
+<meta name="description" content="Базовые сведения о Markdown" />
 
 
 
@@ -317,17 +317,17 @@
 <meta property="twitter:image" content="https://example.com/post/jupyter/featured.png" />
 <meta property="og:site_name" content="Academic" />
 <meta property="og:url" content="https://example.com/post/jupyter/" />
-<meta property="og:title" content="Display Jupyter Notebooks with Academic | Academic" />
-<meta property="og:description" content="Learn how to blog in Academic using Jupyter notebooks" /><meta property="og:image" content="https://example.com/post/jupyter/featured.png" /><meta property="og:locale" content="en-us" />
+<meta property="og:title" content="Язык разметки Markdown. | Academic" />
+<meta property="og:description" content="Базовые сведения о Markdown" /><meta property="og:image" content="https://example.com/post/jupyter/featured.png" /><meta property="og:locale" content="en-us" />
 
   
     <meta
       property="article:published_time"
-      content="2019-02-05T00:00:00&#43;00:00"
+      content="2023-04-15T00:00:00&#43;00:00"
     />
   
   
-    <meta property="article:modified_time" content="2019-09-05T00:00:00&#43;00:00">
+    <meta property="article:modified_time" content="2023-04-15T00:00:00&#43;00:00">
   
 
 
@@ -355,14 +355,14 @@
     "@type": "WebPage",
     "@id": "https://example.com/post/jupyter/"
   },
-  "headline": "Display Jupyter Notebooks with Academic",
+  "headline": "Язык разметки Markdown.",
   
   "image": [
     "https://example.com/post/jupyter/featured.png"
   ],
   
-  "datePublished": "2019-02-05T00:00:00Z",
-  "dateModified": "2019-09-05T00:00:00Z",
+  "datePublished": "2023-04-15T00:00:00Z",
+  "dateModified": "2023-04-15T00:00:00Z",
   
   "author": {
     "@type": "Person",
@@ -377,7 +377,7 @@
       "url": "https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_3.png"
     }
   },
-  "description": "Learn how to blog in Academic using Jupyter notebooks"
+  "description": "Базовые сведения о Markdown"
 }
 </script>
 
@@ -399,7 +399,7 @@
 
 
   
-  <title>Display Jupyter Notebooks with Academic | Academic</title>
+  <title>Язык разметки Markdown. | Academic</title>
 
   
   
@@ -841,10 +841,10 @@
 
 
 <div class="article-container pt-3">
-  <h1>Display Jupyter Notebooks with Academic</h1>
+  <h1>Язык разметки Markdown.</h1>
 
   
-  <p class="page-subtitle">Learn how to blog in Academic using Jupyter notebooks</p>
+  <p class="page-subtitle">Базовые сведения о Markdown</p>
   
 
   
@@ -870,10 +870,8 @@
     
     
       
-          Last updated on
-      
     
-    Sep 5, 2019
+    Apr 15, 2023
   </span>
   
 
@@ -917,58 +915,53 @@
   <div class="article-container">
 
     <div class="article-style">
-      <div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="kn">from</span> <span class="nn">IPython.core.display</span> <span class="kn">import</span> <span class="n">Image</span>
-</span></span><span class="line"><span class="cl"><span class="n">Image</span><span class="p">(</span><span class="s1">&#39;https://www.python.org/static/community_logos/python-logo-master-v3-TM-flattened.png&#39;</span><span class="p">)</span>
-</span></span></code></pre></div><p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<figure  >
-  <div class="d-flex justify-content-center">
-    <div class="w-100" ><img src="./index_1_0.png" alt="png" loading="lazy" data-zoomable /></div>
-  </div></figure>
-</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Welcome to Academic!&#34;</span><span class="p">)</span>
-</span></span></code></pre></div><pre><code>Welcome to Academic!
-</code></pre>
-<h2 id="install-python-and-jupyterlab">Install Python and JupyterLab</h2>
-<p><a href="https://www.anaconda.com/distribution/#download-section" target="_blank" rel="noopener">Install Anaconda</a> which includes Python 3 and JupyterLab.</p>
-<p>Alternatively, install JupyterLab with <code>pip3 install jupyterlab</code>.</p>
-<h2 id="create-or-upload-a-jupyter-notebook">Create or upload a Jupyter notebook</h2>
-<p>Run the following commands in your Terminal, substituting <code>&lt;MY-WEBSITE-FOLDER&gt;</code> and <code>&lt;SHORT-POST-TITLE&gt;</code> with the file path to your Academic website folder and a short title for your blog post (use hyphens instead of spaces), respectively:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">mkdir -p &lt;MY-WEBSITE-FOLDER&gt;/content/post/&lt;SHORT-POST-TITLE&gt;/
-</span></span><span class="line"><span class="cl"><span class="nb">cd</span> &lt;MY-WEBSITE-FOLDER&gt;/content/post/&lt;SHORT-POST-TITLE&gt;/
-</span></span><span class="line"><span class="cl">jupyter lab index.ipynb
-</span></span></code></pre></div><p>The <code>jupyter</code> command above will launch the JupyterLab editor, allowing us to add Academic metadata and write the content.</p>
-<h2 id="edit-your-post-metadata">Edit your post metadata</h2>
-<p>The first cell of your Jupter notebook will contain your post metadata (<a href="https://sourcethemes.com/academic/docs/front-matter/" target="_blank" rel="noopener">front matter</a>).</p>
-<p>In Jupter, choose <em>Markdown</em> as the type of the first cell and wrap your Academic metadata in three dashes, indicating that it is YAML front matter:</p>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">---
-</span></span><span class="line"><span class="cl">title: My post&#39;s title
-</span></span><span class="line"><span class="cl">date: 2019-09-01
-</span></span><span class="line"><span class="cl">
-</span></span><span class="line"><span class="cl"># Put any other Academic metadata here...
-</span></span><span class="line"><span class="cl">---
-</span></span></code></pre></div><p>Edit the metadata of your post, using the <a href="https://sourcethemes.com/academic/docs/managing-content" target="_blank" rel="noopener">documentation</a> as a guide to the available options.</p>
-<p>To set a <a href="https://sourcethemes.com/academic/docs/managing-content/#featured-image" target="_blank" rel="noopener">featured image</a>, place an image named <code>featured</code> into your post&rsquo;s folder.</p>
-<p>For other tips, such as using math, see the guide on <a href="https://wowchemy.com/docs/content/writing-markdown-latex/" target="_blank" rel="noopener">writing content with Academic</a>.</p>
-<h2 id="convert-notebook-to-markdown">Convert notebook to Markdown</h2>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl">jupyter nbconvert index.ipynb --to markdown --NbConvertApp.output_files_dir<span class="o">=</span>.
-</span></span></code></pre></div><h2 id="example">Example</h2>
-<p>This post was created with Jupyter. The orginal files can be found at <a href="https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter" target="_blank" rel="noopener">https://github.com/gcushen/hugo-academic/tree/master/exampleSite/content/post/jupyter</a></p>
-
+      <h2 id="базовые-сведения-о-markdown">Базовые сведения о Markdown</h2>
+<p>Чтобы создать заголовок, используйте знак #, например:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl"># This is heading 1
+</span></span><span class="line"><span class="cl">## This is heading 2
+</span></span><span class="line"><span class="cl">### This is heading 3
+</span></span><span class="line"><span class="cl">#### This is heading 4
+</span></span></code></pre></div><p>Чтобы задать для текста полужирное начертание, заключите его в двойные звездочки:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">This text is **bold**.
+</span></span></code></pre></div><p>Чтобы задать для текста курсивное начертание, заключите его в одинарные звездочки:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">This text is *italic*.
+</span></span></code></pre></div><p>Чтобы задать для текста полужирное и курсивное начертание, заключите его в тройные звездочки:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">This is text is both ***bold and italic***.
+</span></span><span class="line"><span class="cl">Блоки цитирования создаются с помощью символа &gt;:
+</span></span><span class="line"><span class="cl">&gt; The drought had lasted now for ten million years, and the reign of
+</span></span><span class="line"><span class="cl">the terrible lizards had long since ended. Here on the Equator,
+</span></span><span class="line"><span class="cl">in the continent which would one day be known as Africa, the
+</span></span><span class="line"><span class="cl">battle for existence had reached a new climax of ferocity, and
+</span></span><span class="line"><span class="cl">the victor was not yet in sight. In this barren and desiccated
+</span></span><span class="line"><span class="cl">land, only the small or the swift or the fierce could flourish,
+</span></span><span class="line"><span class="cl">or even hope to survive.
+</span></span></code></pre></div><p>Упорядоченный список можно отформатировать с помощью соответствующих цифр:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1. First instruction
+</span></span><span class="line"><span class="cl">1. Sub-instruction
+</span></span><span class="line"><span class="cl">1. Sub-instruction
+</span></span><span class="line"><span class="cl">1. Second instruction
+</span></span></code></pre></div><p>Чтобы вложить один список в другой, добавьте отступ для элементов дочернего списка:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">1. First instruction
+</span></span><span class="line"><span class="cl">1. Second instruction
+</span></span><span class="line"><span class="cl">1. Third instruction
+</span></span></code></pre></div><p>Неупорядоченный (маркированный) список можно отформатировать с помощью звездочек или тире:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">* List item 1
+</span></span><span class="line"><span class="cl">* List item 2
+</span></span><span class="line"><span class="cl">* List item 3
+</span></span></code></pre></div><p>Чтобы вложить один список в другой, добавьте отступ для элементов дочер-
+него списка:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">- List item 1
+</span></span><span class="line"><span class="cl">- List item A
+</span></span><span class="line"><span class="cl">- List item B
+</span></span><span class="line"><span class="cl">- List item 2
+</span></span></code></pre></div><p>Синтаксис Markdown для встроенной ссылки состоит из части [link text], представляющей текст гиперссылки, и части (file-name.md) – URL-адреса или имени файла, на который дается ссылка:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[link text](file-name.md)
+</span></span></code></pre></div><p>или</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">[link text](http://example.com/ &#34;Необязательная подсказка&#34;)
+</span></span></code></pre></div><p>Markdown поддерживает как встраивание фрагментов кода в предложение, так и их размещение между предложениями в виде отдельных огражденных блоков. Огражденные блоки кода — это простой способ выделить синтаксис для фрагментов кода. Общий формат огражденных блоков кода:</p>
+<p>( ``` language
+your code goes in here</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"></code></pre></div>
     </div>
 
     
@@ -994,7 +987,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;text=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
+        <a href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;text=%D0%AF%D0%B7%D1%8B%D0%BA&#43;%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8&#43;Markdown." target="_blank" rel="noopener" class="share-btn-twitter" aria-label="twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -1011,7 +1004,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;t=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;t=%D0%AF%D0%B7%D1%8B%D0%BA&#43;%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8&#43;Markdown." target="_blank" rel="noopener" class="share-btn-facebook" aria-label="facebook">
           <i class="fab fa-facebook"></i>
         </a>
       </li>
@@ -1030,7 +1023,7 @@
         
       
       <li>
-        <a href="mailto:?subject=Display%20Jupyter%20Notebooks%20with%20Academic&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
+        <a href="mailto:?subject=%D0%AF%D0%B7%D1%8B%D0%BA%20%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8%20Markdown.&amp;body=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-email" aria-label="envelope">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -1047,7 +1040,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;title=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
+        <a href="https://www.linkedin.com/shareArticle?url=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;title=%D0%AF%D0%B7%D1%8B%D0%BA&#43;%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8&#43;Markdown." target="_blank" rel="noopener" class="share-btn-linkedin" aria-label="linkedin-in">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -1064,7 +1057,7 @@
       
       
       <li>
-        <a href="whatsapp://send?text=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic%20https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
+        <a href="whatsapp://send?text=%D0%AF%D0%B7%D1%8B%D0%BA&#43;%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8&#43;Markdown.%20https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F" target="_blank" rel="noopener" class="share-btn-whatsapp" aria-label="whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -1081,7 +1074,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;title=Display&#43;Jupyter&#43;Notebooks&#43;with&#43;Academic" target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https%3A%2F%2Fexample.com%2Fpost%2Fjupyter%2F&amp;title=%D0%AF%D0%B7%D1%8B%D0%BA&#43;%D1%80%D0%B0%D0%B7%D0%BC%D0%B5%D1%82%D0%BA%D0%B8&#43;Markdown." target="_blank" rel="noopener" class="share-btn-weibo" aria-label="weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
