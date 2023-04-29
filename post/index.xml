@@ -5,7 +5,7 @@
     <link>https://example.com/post/</link>
       <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 15 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 29 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
@@ -13,9 +13,20 @@
     </image>
     
     <item>
+      <title>Оформление отчёта.</title>
+      <link>https://example.com/post/writing-technical-content/</link>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/writing-technical-content/</guid>
+      <description>&lt;p&gt;Оформление отчёта по лабораторным работам должно соответствовать шаблону (его можно скачать по ссылке: &lt;strong&gt;&lt;a href=&#34;https://github.com/yamadharma/academic-laboratory-report-template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/yamadharma/academic-laboratory-report-template&lt;/a&gt;&lt;/strong&gt;).
+При оформлении лабораторной работы необходимо выполнять соглашение об именовании. Также каждое выполненное задание необходимо подтверждать скриншотами. Идентификатор пользователя должен быть ясно различим на скриншотах в отчётах.&lt;/p&gt;
+&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Пост по прошедшей неделе</title>
       <link>https://example.com/post/getting-started/</link>
-      <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 29 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/getting-started/</guid>
       <description>&lt;h2 id=&#34;события&#34;&gt;События:&lt;/h2&gt;
 &lt;ul&gt;
@@ -77,17 +88,6 @@
 &lt;p&gt;( ``` language
 your code goes in here&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-fallback&#34; data-lang=&#34;fallback&#34;&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
-    </item>
-    
-    <item>
-      <title>Оформление отчёта.</title>
-      <link>https://example.com/post/writing-technical-content/</link>
-      <pubDate>Sat, 18 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>https://example.com/post/writing-technical-content/</guid>
-      <description>&lt;p&gt;Оформление отчёта по лабораторным работам должно соответствовать шаблону (его можно скачать по ссылке: &lt;strong&gt;&lt;a href=&#34;https://github.com/yamadharma/academic-laboratory-report-template&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/yamadharma/academic-laboratory-report-template&lt;/a&gt;&lt;/strong&gt;).
-При оформлении лабораторной работы необходимо выполнять соглашение об именовании. Также каждое выполненное задание необходимо подтверждать скриншотами. Идентификатор пользователя должен быть ясно различим на скриншотах в отчётах.&lt;/p&gt;
-&lt;h3 id=&#34;did-you-find-this-page-helpful-consider-sharing-it-&#34;&gt;Did you find this page helpful? Consider sharing it 🙌&lt;/h3&gt;
-</description>
     </item>
     
   </channel>
