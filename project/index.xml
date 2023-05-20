@@ -21,11 +21,12 @@
     </item>
     
     <item>
-      <title>Персональный проект</title>
+      <title>Персональный проект / Personal project</title>
       <link>https://example.com/project/example/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/project/example/</guid>
-      <description>&lt;p&gt;В данный момент проектов нет.&lt;/p&gt;
+      <description>&lt;p&gt;В данный момент проектов нет.
+/There are currently no projects.&lt;/p&gt;
 </description>
     </item>
     
